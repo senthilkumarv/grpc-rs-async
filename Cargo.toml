@@ -1,0 +1,9 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["Senthil V Kumar <senthil.vijay.kumar@gmail.com>"]
+
+[dependencies]
+grpcio = { version = "0.4", default-features = false, features = ["protobuf-codec"] }
+protobuf = "2.0.6"
+futures = "0.1.25"
